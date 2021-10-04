@@ -1,12 +1,5 @@
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-bottom: 100px;
-}
-
 #home {
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
 }
 .title {
@@ -15,7 +8,18 @@
 .logo {
   font-size: 30px;
 }
-
+.header-p {
+  margin-left: 200px;
+  padding-left: 100px;
+  position: relative;
+  right: 180px;
+}
+.header-title {
+  margin-right: 50px;
+}
+.secondary-title {
+  padding-right: 500px;
+}
 .fadeInLeft {
   animation-name: fadeInLeft;
   animation-name: fadeInLeft;
