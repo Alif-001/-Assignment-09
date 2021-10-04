@@ -1,13 +1,15 @@
 import React from "react";
-import bgImg from "../../../image/headerImg5.png";
+import Services from "../../Services/Services";
+import ServicesForHome from "../ServiceForHome";
+import Slider from "../Slider";
 
-const Heading = () => {
+const Home = () => {
   return (
-    <div style={{ backgroundImage: `url(${bgImg})` }}>
-      {" "}
-      <h1>this is a heading</h1>
+    <div>
+      <Slider></Slider>
+      <ServicesForHome></ServicesForHome>
     </div>
   );
 };
 
-export default Heading;
+export default Home;
