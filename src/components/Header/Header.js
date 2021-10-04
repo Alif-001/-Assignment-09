@@ -8,6 +8,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div
+      id="header"
       style={{
         backgroundImage: `url(${headerImg})`,
         backgroundRepeat: "no-repeat",
@@ -19,7 +20,7 @@ const Header = () => {
     >
       <Navbar id="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#header">
             <img height="30" src={logo} alt="" />{" "}
             <span className="fw-bold logo"> E-learning</span>
           </Navbar.Brand>
@@ -67,7 +68,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      <div id="home" className="text-left">
+      <div id="home" className="text-left mb-5">
         <h1 className="fadeInLeft me-5 pe-2 title">Welcome to E-learning</h1>
         <div className="px-5 mx-5 w-75">
           <h3>We Take Learning to New Heights.</h3>
