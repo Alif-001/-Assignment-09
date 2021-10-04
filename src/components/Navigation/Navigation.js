@@ -27,18 +27,18 @@ const Navigation = () => {
               <Link
                 className="text-decoration-none fw-bold text-info"
                 id="menu-items"
-                to="/about"
+                to="/services"
               >
-                About Us
+                Services
               </Link>
             </Nav.Link>
             <Nav.Link className="text-dark ">
               <Link
                 className="text-decoration-none fw-bold text-info"
                 id="menu-items"
-                to="/services"
+                to="/about"
               >
-                Services
+                About Us
               </Link>
             </Nav.Link>
             <Nav.Link className="text-dark ">

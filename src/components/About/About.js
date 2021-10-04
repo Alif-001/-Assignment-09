@@ -16,7 +16,7 @@ const About = () => {
           </p>
         </div>
         <div
-          className="my-5 ms-5 w-50 text-center
+          className="my-5 ms-2 w-50 text-center
          "
         >
           <h4>A leadership team with vision</h4>
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <img src={aboutimg} alt="" />
+        <img src={aboutimg} alt="" className="me-5" />
       </div>
     </div>
   );

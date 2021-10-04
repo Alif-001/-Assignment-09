@@ -14,7 +14,8 @@ const ServicesForHome = () => {
   return (
     <div className="services">
       <Container>
-        <h1>Services</h1>
+        <h1 className="my-2"> Top Services</h1>
+        <hr className="bg-info " />
         <Row xs={2} md={4} lg={4}>
           {service.slice(0, 4).map((serviceitem) => (
             <Service key={serviceitem.id} serviceitem={serviceitem}></Service>

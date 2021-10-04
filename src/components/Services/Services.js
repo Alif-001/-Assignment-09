@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Service from "./../Service/Service";
 
+// feaching data
 const Services = () => {
   const [service, setService] = useState([]);
 

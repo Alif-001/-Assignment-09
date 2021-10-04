@@ -7,7 +7,6 @@ import NotFound from "../../components/NotFound/NotFound";
 import Services from "../../components/Services/Services";
 import ServiceDetails from "../../components/ServiceDetails/ServiceDetails";
 import About from "../../components/About/About";
-import Instructor from "../../components/Instructor/Instructor";
 import Contact from "../../components/Contact/Contact";
 
 function App() {
@@ -30,9 +29,6 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About></About>
-          </Route>
-          <Route exact path="/instructor">
-            <Instructor></Instructor>
           </Route>
           <Route exact path="/contact">
             <Contact></Contact>

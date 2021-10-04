@@ -3,20 +3,17 @@ import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Service = (props) => {
-  const { title, img, price } = props.serviceitem;
-
+  const { name, img, price, details } = props.serviceitem;
+  // card data
   return (
     <Col>
-      <Card>
-        <Card.Img variant="top" src={img} />
+      <Card className="my-5">
+        <Card.Img variant="top" src={img} width="100px" height="200px" />
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <h4>Price : ${price}</h4>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Link to="/notfound" className="btn btn-primary">
+          <Card.Title className="fs-5">{name}</Card.Title>
+          <h5>Price : ${price}</h5>
+          <Card.Text>{details.slice(0, 100)}...</Card.Text>
+          <Link to="/notfound" className="btn btn-info">
             Details
           </Link>
         </Card.Body>

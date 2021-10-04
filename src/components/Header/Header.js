@@ -3,7 +3,7 @@ import logo from "../../logo.svg";
 
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+// navbar section
 const Header = () => {
   return (
     <header>
@@ -16,7 +16,6 @@ const Header = () => {
             <Link to="/home">Home</Link>
             <Link to="/services">Services</Link>
             <Link to="/about">About Us</Link>
-            <Link to="/instructor">Instructor</Link>
             <Link to="/contact">Contact Us</Link>
           </Nav>
         </Container>

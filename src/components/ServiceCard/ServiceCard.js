@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+// card data
 const ServiceCard = (props) => {
   const { name, img, price, id, details } = props.setServiceForHome;
   return (
