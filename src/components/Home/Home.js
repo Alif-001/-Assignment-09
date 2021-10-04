@@ -1,12 +1,12 @@
 import React from "react";
 
 import ServicesForHome from "./ServiceForHome";
+import Slider from "./Slider";
 
 const Home = () => {
   return (
     <div>
-      {/* <Slider></Slider> */}
-      <Home></Home>
+      <Slider></Slider>
       <ServicesForHome></ServicesForHome>
     </div>
   );

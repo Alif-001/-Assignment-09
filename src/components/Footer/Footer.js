@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="d-flex justify-content-evenly">
         {" "}
         <div>
-          <h4>© 2021 Coursera Inc. All rights reserved.</h4>
+          <h4>© 2021 E-learning Inc. All rights reserved.</h4>
         </div>
         <div>
-          <h4>call:224584295420</h4>
+          <h4>call:05265-28285</h4>
         </div>
       </div>
     </div>
