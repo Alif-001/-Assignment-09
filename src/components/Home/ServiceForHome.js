@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Service from "./../Service/Service";
 
-const Services = () => {
+const ServicesForHome = () => {
   const [service, setService] = useState([]);
+  //const [cart, setCart] = useState([]);
 
   useEffect(() => {
     fetch("./services.JSON")
@@ -15,7 +16,7 @@ const Services = () => {
       <Container>
         <h1>Services</h1>
         <Row xs={2} md={4} lg={4}>
-          {service.map((serviceitem) => (
+          {service.slice(0, 4).map((serviceitem) => (
             <Service key={serviceitem.id} serviceitem={serviceitem}></Service>
           ))}
         </Row>
@@ -24,4 +25,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesForHome;

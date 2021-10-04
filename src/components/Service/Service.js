@@ -1,25 +1,24 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./Service.css";
+
 const Service = (props) => {
-  const { name, img, price, id, details } = props.service;
+  const { title, img, price } = props.serviceitem;
+
   return (
-    <Col className="d-flex align-items-stretch">
-      <Card className="my-3">
-        <Card.Img variant="top" src={img} height="200px" />
+    <Col>
+      <Card>
+        <Card.Img variant="top" src={img} />
         <Card.Body>
-          <Card.Title className="fs-3">{name}</Card.Title>
-          <h5>Price : ${price}</h5>
-          <Card.Text className="my-3">{details.slice(0, 100)}...</Card.Text>
-          <div className="col align-self-end">
-            <Link
-              to={`/service/${id}/${name.replace(/ /g, "-").toLowerCase()}`}
-              className="btn btn-info fw-bolder btn-block "
-            >
-              Details
-            </Link>
-          </div>
+          <Card.Title>{title}</Card.Title>
+          <h4>Price : ${price}</h4>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Link to="/notfound" className="btn btn-primary">
+            Details
+          </Link>
         </Card.Body>
       </Card>
     </Col>

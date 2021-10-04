@@ -3,7 +3,6 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../image/books.png";
 
-import "./Navigation.css";
 const Navigation = () => {
   return (
     <Navbar id="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
