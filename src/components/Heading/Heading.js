@@ -42,7 +42,7 @@ const Heading = () => {
                 to="/contact"
                 className="btn btn-info fw-bold text-white align-self-start"
               >
-                Sing-up
+                Sign-Up
               </Link>
             </div>
           </div>

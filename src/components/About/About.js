@@ -5,7 +5,7 @@ import aboutimg from "../../image/Designer _Flatline.png";
 const About = () => {
   return (
     <div className="">
-      <h1 className="mt-5">About us </h1>
+      <h1 className="mt-5">About Us </h1>
       <div className="d-flex justify-content-center ">
         <hr className="bg-info w-25 mx-5 px-5 d-flex  align-items-center" />
       </div>
