@@ -12,6 +12,9 @@ const About = () => {
       </div>
       <div className="">
         <div className="d-flex w-100  ms-5">
+          <div className="ms-5">
+            <img src={aboutimg} alt="" className="" />
+          </div>
           <div className="ms-5 ps-5 ">
             <div className="d-flex flex-column w-75">
               <div id="about" className="align-items-center ">
@@ -35,9 +38,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="ms-5">
-            <img src={aboutimg} alt="" className="" />
           </div>
         </div>
       </div>
