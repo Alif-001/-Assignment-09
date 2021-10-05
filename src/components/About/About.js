@@ -12,7 +12,7 @@ const About = () => {
       <div xs={6} className=" container w-75 col-sm-12 ">
         <div className="d-flex w-100  col-sm-12 ms-5">
           <div className="ms-5 container col">
-            <img src={aboutimg} alt="" className="" />
+            <img src={aboutimg} alt="" className="" width="400px" />
           </div>
           <div xs={6} className=" d-flex ms-5 ps-5 col">
             <div className="d-flex flex-column w-75">
