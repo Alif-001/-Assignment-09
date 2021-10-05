@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 
-// feaching data
+// fetching data
 const ServiceDetails = () => {
   const { id } = useParams();
   const [service, setService] = useState([]);

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const ServiceCard = (props) => {
   const { name, img, price, id, details } = props.setServiceForHome;
   return (
-    <Col className="d-flex align-items-stretch">
-      <Card className="my-3">
+    <Col className="d-flex align-items-stretch   ">
+      <Card className="my-3   h-100 card-body">
         <Card.Img variant="top" src={img} height="200px" />
         <Card.Body>
           <Card.Title className="fs-3">{name}</Card.Title>

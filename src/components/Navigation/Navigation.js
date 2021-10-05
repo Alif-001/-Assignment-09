@@ -2,14 +2,17 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../image/books.png";
-
+import "./Navaigation.css";
+// nav bar
 const Navigation = () => {
   return (
     <Navbar id="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#header">
-          <img height="30" src={logo} alt="" />{" "}
-          <span className="fw-bold logo"> E-learning</span>
+          <Link to="/home" className="text-decoration-none text-white">
+            <img height="30" src={logo} alt="" />{" "}
+            <span className="fw-bold logo"> E-learning</span>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

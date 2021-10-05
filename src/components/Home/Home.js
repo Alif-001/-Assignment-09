@@ -1,7 +1,8 @@
 import React from "react";
 
 import ServicesForHome from "../Home/ServiceForHome";
-import Heading from "./Heading/Heading";
+import Heading from "../../components/Heading/Heading";
+import About from "../About/About";
 
 // heading page
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
       <Heading></Heading>
       <ServicesForHome></ServicesForHome>
+      <About></About>
     </div>
   );
 };

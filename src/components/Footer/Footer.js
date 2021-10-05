@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className="  footer bg-info 
+      className="  footer bg-info mt-5
     "
       style={{ listStyle: "none" }}
     >
@@ -20,10 +20,10 @@ const Footer = () => {
             </ul>
           </div>
           <hr className="w-100" />
-          <h4>
+          <h6>
             © 2021<span className="text-white"> E-learning</span> Inc. All
             rights reserved.
-          </h4>
+          </h6>
         </div>
         <div>
           <div>

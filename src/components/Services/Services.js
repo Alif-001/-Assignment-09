@@ -14,7 +14,8 @@ const Services = () => {
   return (
     <div className="services">
       <Container>
-        <h1>Services</h1>
+        <h1 className="mt-5">Services</h1>
+        <hr className="bg-info " />
         <Row xs={2} md={4} lg={4}>
           {service.map((serviceitem) => (
             <Service key={serviceitem.id} serviceitem={serviceitem}></Service>

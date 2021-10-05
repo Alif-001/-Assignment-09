@@ -6,8 +6,8 @@ const Service = (props) => {
   const { name, img, price, details } = props.serviceitem;
   // card data
   return (
-    <Col>
-      <Card className="my-5">
+    <Col className="my-5 h-100 align-items-stretch ">
+      <Card className="align-items-stretch  h-100">
         <Card.Img variant="top" src={img} width="100px" height="200px" />
         <Card.Body>
           <Card.Title className="fs-5">{name}</Card.Title>

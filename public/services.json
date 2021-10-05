@@ -70,6 +70,30 @@
         "price":125,
         "img":"https://images.unsplash.com/photo-1519995451813-39e29e054914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 
+    },
+    {
+        "id": 10,
+        "name":"Robotics",
+        "details":"The Introduction to Robotics Specialization introduces you to the concepts of robot flight and movement, how robots perceive their environment, and how they adjust their movements to avoid obstacles, navigate difficult terrains and accomplish complex tasks such as construction and disaster recovery.  You will be exposed to real world examples of how robots have been applied in disaster situations, how they have made advances in human health care and what their future capabilities will be.  The courses build towards a capstone in which you will learn how to program a robot to perform a variety of movements such as flying and grasping objects",
+        "price":1500,
+        "img":"https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJvYm90aWNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+
+    },
+    {
+        "id": 11,
+        "name":"Financial Markets",
+        "details":"An overview of the ideas, methods, and institutions that permit human society to manage risks and foster enterprise.  Emphasis on financially-savvy leadership skills. Description of practices today and analysis of prospects for the future. Introduction to risk management and behavioral finance principles to understand the real-world functioning of securities, insurance, and banking industries.  The ultimate goal of this course is using such industries effectively and towards a better society.",
+        "price":1425,
+        "img":"https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmluYW5jaWFsJTIwbWFya2V0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+
+    },
+    {
+        "id": 12,
+        "name":"Machine Learning",
+        "details":"Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself. More importantly, you'll learn about not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, you'll learn about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.",
+        "price":1250,
+        "img":"https://images.unsplash.com/photo-1531837763904-5d3cb2632ea3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+
     }
   
 ]
